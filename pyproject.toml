@@ -1,0 +1,42 @@
+[project]
+name = "marvel-hr-assist"
+version = "0.1.0"
+description = "A smart HR assistant tool designed to streamline human resource workflows, automate routine tasks, and improve employee management efficiency using modern Python technologies."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Somesh Joshi", email = "joshi.somesh1996@gmail.com" }
+]
+license = "MIT"  # SPDX identifier (simple string, recommended by setuptools >=77)
+keywords = ["hr", "assistant", "automation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "mcp[cli]>=1.9.4",
+    "numpy",
+    "requests",
+    "pydantic",
+    "uvicorn",
+    "starlette",
+    "fastapi",
+    "httpx",
+    "rich",
+    "typer",
+    "email_validator",
+    "gunicorn",
+    "click"
+]
+
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+# --- setuptools specific configuration ---
+[tool.setuptools]
+packages = ["hrms"]  # Explicit package list; avoids accidental inclusion of 'Resources'
+
+# Include non‑code resources that live inside the hrms package (if any)
+[tool.setuptools.package-data]
+hrms = ["resources/**/*", "data/**/*"]
