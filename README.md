@@ -45,7 +45,7 @@ marvel-hr-assist/
 ```bash
 # 1. Clone and enter the repo
 git clone https://github.com/your‑org/marvel‑hr‑assist.git
-cd hr‑assist
+cd marvel-hr-assist
 
 # 2. (Recommended) Create a virtual environment
 python -m venv .venv
