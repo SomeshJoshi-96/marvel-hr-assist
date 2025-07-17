@@ -54,10 +54,9 @@ source .venv/bin/activate           # Windows: .venv\Scripts\activate
 # 3. Install package and dependencies
 pip install .
 ```
+---
 
 ## 🖼️ Screenshots
-
----
 
 These images demonstrate sample resources used within the Marvel HR Assist project:
 
