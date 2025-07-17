@@ -57,11 +57,15 @@ pip install .
 
 ## 🖼️ Screenshots
 
+---
+
 These images demonstrate sample resources used within the Marvel HR Assist project:
 
 | ![Image 1](Resources/1.png) | ![Image 2](Resources/2.png) |
 |-----------------------------|-----------------------------|
 | ![Image 3](Resources/3.png) | ![Image 4](Resources/4.png) |
+
+---
 
 ### Code Example
 
