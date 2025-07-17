@@ -186,6 +186,7 @@ def onboard_new_employee(employee_name: str, manager_name: str):
     - Notify the manager about the new employee's onboarding.
     - Raise tickets for a new laptop, id card, and other necessary equipment.
     - Schedule an introductory meeting between the employee and the manager.
+    - Add the employee to the leave management system
     """
 
 
